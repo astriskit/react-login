@@ -1,0 +1,15 @@
+.button{
+  border: 0.5px solid grey;
+  padding: 0.6rem;
+  border-radius: 0.1rem;
+  box-shadow: 1px 1px 4px grey;
+  cursor: pointer;
+  &:active{
+    box-shadow: none;
+  }
+  &.disabled{
+    pointer-events: none;
+    box-shadow: none;
+    color: grey;
+  }
+}

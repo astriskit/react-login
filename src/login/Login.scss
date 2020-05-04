@@ -1,0 +1,16 @@
+.login{
+  justify-content: center;
+  padding: 0.9rem;
+  margin: 0.9rem;
+  border: 1px solid grey;
+  border-radius: 2px;
+  .login-button{
+    margin-top: 0.7rem;
+  }
+  &, .login-button:not(.disabled){
+    animation-name: colorEffect;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+  overflow: auto;
+}

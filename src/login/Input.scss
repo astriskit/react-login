@@ -1,0 +1,31 @@
+.input{
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  border: 0.5px dashed;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  min-width: 100%;
+  margin: 0.5rem;
+  justify-content: space-between;
+  span{
+    padding: 0.5rem;
+    flex-grow: 1;
+  }
+  @media only screen and (max-width:400px) {
+    span{
+      display:none;
+    }
+  }
+  input {
+    padding: 0.5rem;
+    text-align: center;
+    font-size: inherit;
+    letter-spacing: inherit;
+    font-family: 'Courier New', Courier, monospace;
+    border:none;
+    flex-grow: 2;
+    &::placeholder{
+      color: grey;
+    }
+  }
+}
